@@ -112,6 +112,10 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+		p {
+			color: #FDFDFD;
+		}
+
 /* Type */
 
 	iframe {
