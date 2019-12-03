@@ -2682,11 +2682,14 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+
 	}
 
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			margin-left:auto;
+			margin-right:auto;
 		}
 
 		ul.actions.special {
