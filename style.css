@@ -1,0 +1,23 @@
+body {
+  margin-top: 150px;
+  margin-left: 225px;
+  margin-right: 450px;
+  font-family: "Georgia", serif;
+  color: black;
+  background-color: mintcream
+  }
+
+a:link, a:visited {
+  color: steelblue;
+  text-decoration-line: none
+  }
+
+h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  }
+
+p {
+  margin-bottom: 1em;
+  margin-top: 0;
+  }
