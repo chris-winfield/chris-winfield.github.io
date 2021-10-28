@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>GitHub, Atom, and Markdown for Creative Writers</title>
+  <link rel="stylesheet" href="techstyle.css">
+</head>
+
+<body>
+
+<h2 id="github-atom-and-markdown-for-creative-writers">GitHub, Atom, and Markdown for Creative Writers</h2>
+
+<h5 id="chris-winfield">Chris Winfield</h5>
+
+<h3 id="making-the-first-commit">Making the First Commit</h3>
+
+<figure>
+<img src="images/05successfulatomclone.PNG" alt="Github pane before the first commit" />
+</figure>
+
+<p>Now that the repository is open in Atom, the next step is to create the first commit. Much like the glossy diction of good science-fiction, some jargon must be defined. The above picture shows the Git tab in Atom. Select Git in the lower right corner of the screen to bring it up. At the bottom of this tab, it reads &quot;Not on branch.&quot; A <em>branch</em> represents, in the software development cycle, one collaborator's extant version which may eventually be <em>merged</em>, or incorporated, into the <em>main</em> branch by a <em>pull request</em>, also mentioned on that tab. For the purposes of creative writing, this may seem irrelevant, but the next few steps are necessary in order to <em>initiate</em> the main branch, beginning with creating a file in Atom.</p>
+
+<figure>
+<img src="images/06emptyprojectpane.PNG" alt="Empty Project Pane" />
+</figure>
+
+<p>On the far left pane in Atom, the Project tab contains the local clone of the repository. It contains nothing aside from the .git folder, which should be ignored for these purposes. Right-click (on Windows) or control-click (on macOS) on the name of the repository. Select &quot;New
+Folder.&quot;</p>
+
+<figure>
+<img src="images/07namedirectory.PNG" alt="Name the directory" />
+</figure>
+
+<p>A bar will appear. Name this folder and it will appear in the repository. Right- or control-click the folder and select &quot;New file.&quot;</p>
+
+<figure>
+<img src="images/08namefile.PNG" alt="Name the file" />
+</figure>
+
+<p>The name bar will fill in the folder name where it's created. Enter a name and add <strong>.md</strong> as a <em>file extension</em>. Familiar file extensions include .docx or .pdf for Microsoft Word and Adobe Documents, respectively, while .md stands for <em>Markdown</em>. Markdown is a formatting language which will be introduced in full later in this guide. This file will open in one of the center panes in Atom.</p>
+
+<figure>
+<img src="images/09sampletext.PNG" alt="Sample text" />
+</figure>
+
+<p>Enter some text in the file. Notice the dot that appears to the right of the file name. This indicates that the file needs to be saved using control-s (on Windows) or command-s (on macOS). This only saves to the repository on the local computer. <em>Committing</em> presents batches of file changes to the repository on GitHub.</p>
+
+<figure>
+<img src="images/10firstcommit.PNG" alt="Unstaged changes" />
+</figure>
+
+<p>After saving the file, return to the Git tab on the right. The new file will appear under <em>Unstaged Changes</em>. These are the locally modified files which must first be <em>staged</em> by selecting &quot;Stage All.&quot; This prepares Git for the changes to the repository without making them part of the record. If changes are staged, they must either be unstaged using &quot;Unstage All&quot; or committed.</p>
+
+<figure>
+<img src="images/11stagedcomments.PNG" alt="Staged changes and comment" />
+</figure>
+
+<p>Once changes have been staged, write a <em>comment</em> for the commit. Whether coding or writing, sometimes older commits need to be revisited. Making a habit of writing descriptive comments will aid the ongoing process of revising and editing.</p>
+<p>Right now, the commit button reads &quot;Create detached commit.&quot; After this first commit is <em>published</em>, the main branch will exist for all future commits. Click the button to create the commit.</p>
+
+<figure>
+<img src="images/12fetchmainbranch.PNG" alt="Now on the main branch" />
+</figure>
+
+<p>The next step is usually to <em>push</em> the commit to the branch. However, because the main brain doesn't yet exist outside of our local copy, there are a couple more steps. In the bottom right corner of Atom, select &quot;Fetch.&quot; This will open the web browser and ask for the GitHub login and an authorization as it did when installing GitHub Desktop.</p>
+
+<figure>
+<img src="images/13desktophistory.PNG" alt="Desktop History" />
+</figure>
+
+<p>For the final step, open GitHub Desktop. The first commit will appear in history. To publish the first commit, select &quot;Publish&quot; to the right of &quot;Current Branch.&quot; Check the repository on GitHub.com. Instead of the commands that were there when the repository was created, the first commit should appear along with the folder and file.</p>
+
+<p><strong>The process can be completd entirely within Atom from this point forward.</strong> The procedure goes:</p>
+
+<ol type="1">
+<li>On opening Atom, &quot;Fetch&quot; or &quot;Pull&quot; at the bottom right to ensure your cloned repository has the latest version. This becomes more relevant when using multiple machines or with collaborators.</li>
+<li>Work on files. Do another test edit on the file to practice committing.</li>
+<li>Stage the changes.</li>
+<li>Write a comment and commit.</li>
+<li>Following that, select &quot;Push,&quot; which will be in the place of &quot;Fetch.&quot;</li>
+</ol>
+
+<figure>
+<img src="images/14nowpush.PNG" alt="Push" />
+</figure>
+
+<p>These few steps will quickly become a reliable habit. From here on, the focus in Atom will be on writing, beginning with <a href="customizing.html">customizing</a> it for this purpose.</p>
+
+<p><a href="introduction.html">Return</a> to the main page.</p>
+</body>
+</html>

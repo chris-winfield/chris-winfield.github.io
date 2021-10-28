@@ -1,0 +1,32 @@
+body {
+  width: 1000px;
+  margin-top: 125px;
+  margin-left: 125px;
+  margin-bottom: 125px;
+  font-family: "Tahoma", sans-serif;
+  color: black;
+  background-color: cornsilk;
+  }
+
+a:link, a:visited {
+  color: navy;
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: auto;
+  }
+
+img.githublogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+
+h2, h3, h4, h5 {
+    text-align: center;
+  }
